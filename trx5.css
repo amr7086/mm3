@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	box-sizing: border-box; 
+	
+}
+.contariner {
+	width: 800px;
+	margin: 50px auto;
+	background-color: #eee;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	position: relative;
+}
+ 
+div .b0 {
+	background-color: #323234;
+	width: 75px;
+	height: 530px;
+	color: #ccc;
+}
+
+div .b1 {
+	width: 230px;
+	height: 75px;
+	background-color: #323234;
+
+}
+div .b2 {
+	width: 230px;
+	margin-top: 160px;
+	height: 75px;
+	background-color: #323234;
+}
+div .b3 {
+  	width: 230px;
+	margin-top: 145px;
+	height:75px;
+	background-color: #323234;
+}
+div .x1 {
+	margin-left: 50px;
+	width: 75px;
+	background-color: #323234;
+}
+div .x2 {
+	width: 230px;
+	background-color: #323234;
+	margin-top: 455px;
+	height: 75px;
+	
+}
+.sp1 {
+	width: 50px;
+	height: 50px;
+	background-color: #fea604;
+	position: absolute;
+	right: 80px;
+	bottom: 23px;
+	animation-name: amr-sp1;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	}
+@keyframes amr-sp1 {
+	
+0% {
+	transform: translate(0, 0);
+	}
+	7% {
+	transform: translate(-233px, 0);
+	}
+	21% {
+		transform: translate(-233px, -454px);
+		background-color: #fea604;
+		
+	}
+	28% {
+		transform: translate(-233px, -454px);
+		background-color: transparent;
+		display: none;
+		}
+	33% {
+		transform: translate(-350px, -454px);
+		background-color: transparent;
+		
+		}
+	38% {
+		transform: translate(-350px, -454px);
+		background-color: #fea604;;
+		
+		}
+	43% {
+		transform: translate(-585px, -454px);
+		background-color: #fea604;;
+		}
+	48% {
+		transform: translate(-585px, -220px);
+	}
+	53% {
+		transform: translate(-350px, -220px);
+	}
+	58% {
+		transform: translate(-585px, -220px);
+	}
+	63% {
+		transform: translate(-585px, 0);
+	}
+	68% {
+		transform: translate(-350px, 0);
+	}
+	73% {
+		transform: translate(-585px, 0);
+	}
+	80% {
+		transform: translate(-585px, -454px);
+	}
+	85% {
+		transform: translate(-350px, -454px);
+		background-color: #fea604;
+	}
+	90% {
+		transform: translate(-350px, -454px);
+		background-color: transparent;
+	
+	}
+	95% {
+		transform: translate(0, 0);
+		background-color: transparent;
+	}
+	100% {
+		transform: translate(0, 0);
+		background-color: #fea604;
+	}
+	
+	
+}
+
+
